@@ -65,21 +65,25 @@ def buildResp(race, Sclass, stone, divine, optionVariables, NGVariables, evilChe
     response.geometry("800x300")
     dataList[0] = getData(race, DNGGRaces)
     # Get class based on option 0
+    tempList = []
     if (optionVariables[0]):
         if dataList[0] == "Dark Elf":
             dataList[1] = getData(Sclass, DNGGClasses)
         elif dataList[0] in DNGGWarriorRaces:
-            tempList = DNGGWarriorClasses
+            for thing in DNGGWarriorClasses:
+                tempList.append(thing)
             tempList.append(random.choice(DNGGMageClasses))
             tempList.append(random.choice(DNGGRogueClasses))
             dataList[1] = getData(Sclass, tempList)
         elif dataList[0] in DNGGMageRaces:
-            tempList = DNGGMageClasses
+            for thing in DNGGMageClasses:
+                tempList.append(thing)
             tempList.append(random.choice(DNGGWarriorClasses))
             tempList.append(random.choice(DNGGRogueClasses))
             dataList[1] = getData(Sclass, tempList)
         elif dataList[0] in DNGGRogueRaces:
-            tempList = DNGGRogueClasses
+            for thing in DNGGRogueClasses:
+                tempList.append(thing)
             tempList.append(random.choice(DNGGWarriorClasses))
             tempList.append(random.choice(DNGGMageClasses))
             dataList[1] = getData(Sclass, tempList)
