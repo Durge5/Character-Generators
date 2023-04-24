@@ -12,3 +12,7 @@ want to come up with anything complex right now for New Game + and other options
 
 ![image](https://user-images.githubusercontent.com/73960608/233866722-88fa0e5d-e482-46c2-91c8-18288f300373.png)
 ![image](https://user-images.githubusercontent.com/73960608/233885708-eb800e42-0892-4c73-98cd-0df7347682b9.png)
+
+To use this Generator, you will need Python, you can download Python off of the Windows Store: https://apps.microsoft.com/store/detail/python-310/9PJPW5LDXLZ5?hl=en-us&gl=us - then you will need to download both files (DNGGCharGen.py, and Names.txt) and have them in the same folder. Then you can run the program with python.
+
+![image](https://user-images.githubusercontent.com/73960608/233890553-e65f8ddb-f47a-4d6f-9315-c8e32c9a7f03.png)
