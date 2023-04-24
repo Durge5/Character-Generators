@@ -3,6 +3,7 @@
 
 from tkinter import *
 import random
+import sys
 
 # All of the Lists used are housed at the bottom now.
 
@@ -252,7 +253,7 @@ Dreams = ['Returning Home', 'Becoming Famous',
 
 
 def generateBackground(race, Sclass):
-    nameFile = open('Names.txt', 'r')
+    nameFile = open(sys.path[0] + '\\Names.txt', 'r')
     nameList = []
     flag = False
     for line in nameFile:
