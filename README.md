@@ -11,3 +11,4 @@ want to come up with anything complex right now for New Game + and other options
 - Options for pregenerated name, and pregenerated backgrounds are incoming for those RP lovers.
 
 ![image](https://user-images.githubusercontent.com/73960608/233866722-88fa0e5d-e482-46c2-91c8-18288f300373.png)
+![image](https://user-images.githubusercontent.com/73960608/233885708-eb800e42-0892-4c73-98cd-0df7347682b9.png)
